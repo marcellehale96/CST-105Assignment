@@ -1,1 +1,21 @@
+//My name is Marcelle Hale and this is my project
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package myfirstproject;
+
+/**
+ *
+ * @author Marcelle Hale
+ */
+public class Introduction {
+    public static void main(String[] args) {
+    
+    System.out.println("My Name is Marcelle Hale");
+    System.out.println("My favorite color is blue");
+    System.out.println("If I won the lottery, I would invest the money.");
+    }
+}
 
