@@ -1,0 +1,51 @@
+//My Name is Marcelle Hale and This is my Project.
+package computesum;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Marcelle Hale
+ */
+public class ComputeSum {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args){
+        //Declare the initial values
+        int l, m , n , o , p, number = 0;
+
+        //Create a Scanner object
+        Scanner input = new Scanner(System.in);
+        
+        //Prompt the user to enter a five digit number
+        System.out.print("Enter a five digit number: ");
+        number = input.nextInt();
+        
+        l = number / 10000;
+        
+        m = number % 10000;
+        int m2 = m / 1000;
+        
+        n = number % 1000;
+        int n2 = n / 100;
+        
+        o = number % 100;
+        int o2 = o / 10;
+        
+        p = number % 10;
+        int p2 = p / 1;
+        
+        int sum = l + m2 + n2 + o2 + p2;
+        
+        System.out.print("The sum of the digits is " + " " + l + " + " + m2 + " + " 
+                + n2 + " + " + o2 + " + " + p2 + " = " + sum);
+        
+        
+        
+        
+        
+    }
+    
+}
